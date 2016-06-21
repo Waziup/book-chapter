@@ -1,0 +1,61 @@
+\documentclass{llncs}
+
+\usepackage[nocompress]{cite}
+\usepackage[english]{babel}
+%\usepackage{minted}
+\usepackage{array}
+\usepackage{url}
+\usepackage{ifthen}
+
+
+%common abbreviations
+\newcommand{\etal}{{\it et al.}}
+\newcommand{\etc}{{\it etc.}}
+\newcommand{\ie}{\emph{i.e.}}
+\newcommand{\eg}{{\em e.g.}}
+
+\newboolean{showcomments}
+\setboolean{showcomments}{false}
+
+\ifthenelse{\boolean{showcomments}}
+{ \newcommand{\mynote}[2]{
+    \fbox{\bfseries\sffamily\scriptsize#1}
+    {\small$\blacktriangleright$\textsf{\emph{#2}}$\blacktriangleleft$}}}
+{\newcommand{\mynote}[2]{}}
+
+\newcommand{\cd}[1]{\mynote{Corentin}{#1}}
+\newcommand{\todo}[1]{\mynote{TODO}{#1}}
+
+\makeatletter
+\let\@copyrightspace\relax
+\makeatother 
+
+\begin{document}
+
+\title{WAZIUP – An Open Innovation Platform to Accelerate Innovation in Africa through cutting edge IoT cost effective communications and Big Data applications}
+
+\author{Charlotte Dupont, Sabrine Fatnassi, Corentin Dupont}
+\urldef{\mailsa}\path|cdupont@create-net.org|
+\institute{Create-Net
+via Alla Cascata, 56/D
+38123 Trento, Italy\\
+\mailsa}
+
+\date{\today}
+
+\maketitle
+
+\begin{abstract}
+\input{abstract}
+\end{abstract}
+
+\input{intro}
+\input{related}
+\input{design}
+\input{conclu}
+\input{acknowledgement}
+
+\bibliographystyle{unsrt}
+\bibliography{bibligraphy/central-bibliography}
+
+\end{document}
