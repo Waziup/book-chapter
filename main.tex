@@ -6,6 +6,8 @@
 \usepackage{array}
 \usepackage{url}
 \usepackage{ifthen}
+\usepackage{graphicx}
+\usepackage{amssymb}
 
 
 %common abbreviations
@@ -15,7 +17,7 @@
 \newcommand{\eg}{{\em e.g.}}
 
 \newboolean{showcomments}
-\setboolean{showcomments}{false}
+\setboolean{showcomments}{true}
 
 \ifthenelse{\boolean{showcomments}}
 { \newcommand{\mynote}[2]{
@@ -23,7 +25,9 @@
     {\small$\blacktriangleright$\textsf{\emph{#2}}$\blacktriangleleft$}}}
 {\newcommand{\mynote}[2]{}}
 
-\newcommand{\cd}[1]{\mynote{Corentin}{#1}}
+\newcommand{\cdu}[1]{\mynote{Corentin}{#1}}
+\newcommand{\cd}[1]{\mynote{Charlotte}{#1}}
+\newcommand{\sfa}[1]{\mynote{Sabrine}{#1}}
 \newcommand{\todo}[1]{\mynote{TODO}{#1}}
 
 \makeatletter
@@ -32,14 +36,20 @@
 
 \begin{document}
 
-\title{WAZIUP – An Open Innovation Platform to Accelerate Innovation in Africa through cutting edge IoT cost effective communications and Big Data applications}
+\title{WAZIUP: An Open Innovation Platform to Accelerate Innovation in Africa through cutting edge IoT cost effective communications and Big Data applications}
 
-\author{Charlotte Dupont, Sabrine Fatnassi, Corentin Dupont}
-\urldef{\mailsa}\path|cdupont@create-net.org|
+\author{Charlotte Dupont\inst{1} \and Sabrine Fatnassi\inst{1} \and Corentin Dupont\inst{2}}
 \institute{Create-Net
 via Alla Cascata, 56/D
 38123 Trento, Italy\\
-\mailsa}
+\and
+Easy Global Market
+Espace Beethoven
+1200 Route des lucioles
+06560 Valbonne, France\\
+\email{{charlotte.dupont,sabrine.fatnassi}@eglobalmark.com}
+\email{cdupont@create-net.org}
+}
 
 \date{\today}
 
@@ -52,10 +62,11 @@ via Alla Cascata, 56/D
 \input{intro}
 \input{related}
 \input{design}
+\input{communities}
 \input{conclu}
 \input{acknowledgement}
 
 \bibliographystyle{unsrt}
-\bibliography{bibligraphy/central-bibliography}
+\bibliography{central-bibliography/bibliography}
 
 \end{document}
