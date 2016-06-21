@@ -103,13 +103,14 @@ Far from an exhaustive list, this paragraph describes the most used Open Source 
 
 \paragraph{Databases and data warehouses}
 
-HDFS, developed by Apache, is a distributed, scalable and portable file-system written in Java for the Hadoop Framework.
+HDFS, developed by Apache, is a distributed, scalable and portable file-system written in Java for the Hadoop Framework\footnote{https://hadoop.apache.org/docs/r1.2.1/hdfs\_design.html}.
 It has been designed for large dataset analysis and by its structure has high fault tolerance. It is the basis upon which everything works in the Hadoop Ecosystem.
-Build on top of HDFS, Apache HBase is a distributed, non-relational column oriented datastore.
+Build on top of HDFS, Apache HBase is a distributed, non-relational column oriented datastore\footnote{https://hbase.apache.org/}.
 HBase is designed to efficiently address random access and fast record lookup.
 It has the capability to handle extremely large tables of data with low latency.
 Though, this data storage tool should be used when random and real-time read/write access to data is needed and when many thousands of operation per seconds need to be performed on large datasets (up to petabytes).
-Apache Hive is a data warehouse infrastructure that can manage and query unstructured data as if it were structured.
+
+Apache Hive\footnote{https://hive.apache.org/} is a data warehouse infrastructure that can manage and query unstructured data as if it were structured.
 As a full component of Hadoop Ecosystem, it uses MapReduce for execution and HDFS for storage.
 It has its own language SQL-like (HiveQL) that brings expressiveness to the queries.
 This storage mode should be used for SQL-like queries and when higher language than MapReduce is needed.
