@@ -210,7 +210,7 @@ It is really designed for real-time analytics, most commonly used with Flink or 
 \todo{Corentin}
 
 \subsection{Deployment}
-\subsubsection{Local and global Clouds}
+\paragraph{Local and global Clouds}
 
 An important feature in WAZIUP platform deployment is the possibility to have a local cloud platform. 
 It  is an infrastructure able to deliver services to clients in a limited geographical area. 
@@ -248,7 +248,7 @@ Furthermore, the orchestrator drives the instantiation of the services in the Cl
 The manifest is also describing which part of the application need to be installed locally, together with corresponding services. 
 The local application can then connect to the gateway and collect data from the sensors.
 
-\subsubsection{Tools}
+\paragraph{Tools}
 An interested tool for deploying code on the gateway level is resin.io.
 It facilitate the deploy, update, and the code maintain on remote devices. 
 It is based docker containers and it supports several devices (the Rpi 1, 2 and 3 are supported).
