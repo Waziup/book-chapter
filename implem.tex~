@@ -32,3 +32,7 @@ In the devices and networking level, LoRa technology captured our attention.
 It specifies LoRaWAN for Low Power Wide Area Network (LPWAN), the kind of technology needed in our project context (rural environment). 
 Using LoRaWAN we can reach above 20 km in Line-Of-Sight (LOS) condition between devices and the gateway. 
 
+An interested tool for deploying code on the gateway level is resin.io.
+It facilitate the deploy, update, and the code maintain on remote devices. 
+It is based docker containers and it supports several devices (the Rpi 1, 2 and 3 are supported).
+
