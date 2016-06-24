@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.22)  24 JUN 2016 16:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.22)  24 JUN 2016 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -334,33 +334,41 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <9> not available
 (Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 131.
 
 
-[6 <./figs/iotarchi.png>]) (./implem.tex) (./deploy.tex [7]
-<figs/paas.png, id=42, 701.5008pt x 404.712pt>
+[6 <./figs/iotarchi.png>]) (./implem.tex
+<figs/platformOverview.png, id=35, 1100.61188pt x 524.71031pt>
+File: figs/platformOverview.png Graphic file (type png)
+
+<use figs/platformOverview.png>
+Package pdftex.def Info: figs/platformOverview.png used on input line 10.
+(pdftex.def)             Requested size: 242.98541pt x 115.83694pt.
+ [7 <./figs/platformOverview.png>])
+(./deploy.tex [8] <figs/paas.png, id=46, 701.5008pt x 404.712pt>
 File: figs/paas.png Graphic file (type png)
- <use figs/paas.png>
+
+<use figs/paas.png>
 Package pdftex.def Info: figs/paas.png used on input line 26.
 (pdftex.def)             Requested size: 242.98541pt x 140.18158pt.
- [8 <./figs/paas.png>]
+ [9 <./figs/paas.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- <figs/deploy.png, id=47, 477.28313pt x 269.50688pt>
-File: figs/deploy.png Graphic file (type png)
 
-<use figs/deploy.png>
+<figs/deploy.png, id=51, 477.28313pt x 269.50688pt>
+File: figs/deploy.png Graphic file (type png)
+ <use figs/deploy.png>
 Package pdftex.def Info: figs/deploy.png used on input line 77.
 (pdftex.def)             Requested size: 242.98541pt x 137.20406pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9]) (./usecases.tex) (./related.tex
+[10]) (./usecases.tex) (./related.tex
 Underfull \vbox (badness 1552) has occurred while \output is active []
 
- [10 <./figs/deploy.png>]
+ [11 <./figs/deploy.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -373,7 +381,7 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [11]
+ [12]
 Overfull \hbox (8.23825pt too wide) in paragraph at lines 42--47
 []\OT1/cmr/m/n/10 More gen-eral pur-pose, Apache Kafka is a high-throughput, di
 s-tributed, publish-
@@ -385,23 +393,23 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[12] [13]
+[13] [14]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ¶ in font cmr10!
-) (./conclu.tex) (./acknowledgement.tex) (./main.bbl) [14] (./main.aux)
+) (./conclu.tex) (./acknowledgement.tex) (./main.bbl) [15] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2865 strings out of 495028
- 37338 string characters out of 6181497
- 103437 words of memory out of 5000000
- 5997 multiletter control sequences out of 15000+600000
+ 2871 strings out of 495028
+ 37499 string characters out of 6181497
+ 104445 words of memory out of 5000000
+ 6002 multiletter control sequences out of 15000+600000
  12376 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 37i,9n,26p,351b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,9n,26p,463b,228s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texli
@@ -415,10 +423,10 @@ sfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 ti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 
-Output written on main.pdf (14 pages, 651325 bytes).
+Output written on main.pdf (15 pages, 719305 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 114 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

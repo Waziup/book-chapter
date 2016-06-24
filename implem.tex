@@ -1,10 +1,43 @@
 
 \section{Implementation}
+In this section we will present WAZIUP plateform components and the technology and tools selected for each component.
 
 \subsection{Platform components}
+Here is a detailed view of WAZIUP plateforrm components:
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.7\textwidth]{figs/platformOverview.png}
+\caption{WAZIUP IoT platform overview}
+\label{fig:platformOverview}
+\end{figure}
+
+The figure ~\ref{fig:platformOverview} presents the full WAZIUP architecture. 
+There are 4 silos (from left to right): Application development, big data platform, IoT platform, Sensors and data sources. 
+The first silo involves the development of the application itself. 
+A rapid application development (RAD) tool can be used, such as Node-Red. 
+The user provides the code source of the application, together with the manifest. 
+The manifest describes the requirements of the application in terms of:
+\begin{itemize}
+	\item \emph{Compute needs (i.e RAM, CPU, disk)}
+	\item \emph{reference to data sources (i.e. sensors, internet - sources...)}
+	\item \emph{big data engines needed (i.e Flink, Hadoop...)}
+	\item \emph{configuration of sensors (i.e. sampling rate)}
+	\item \emph{local and global application deployment}
+\end{itemize}
+
+The application source code, together with the manifest, is pushed to the Waziup Cloud platform by the user. 
+The orchestrator component will read the manifest and trigger the compilation of the application. 
+It will then deploy the application in the Cloud execution environment. 
+It will also instantiate the services needed by the application, as described in the manifest. 
+The last task of the orchestrator is to request the sensor and data sources connections from the IoT components of the architecture. 
+The sensor discovery module will be in charge of retrieving a list of sensors that matches the manifest description.
+On the left side of the diagram, the sensor owners can register their sensors with the platform. External data sources such as Internet APIs can also be connected directly to the data broker. 
+The sensors selected for each application will deliver their data to the data broker, through the IoT bridge and preprocessor. The IoT bridge is responsible on the senors communication, it receives and transmits data to sensors using its specific protocol. The pre-process can apply transoformation of the received data. The local rule is responsible on executing automated rules. the storage maanger is responsible on storing historic data.
+
 \subsection{Sequence diagrams}
 \subsection{Interfaces?}
-\subsubsection{Technology and tools}
+\subsection{Technology and tools}
 
 In this section we will present the technology choices for each functional component stated above.
 In the cloud level the functional component are the data broker, data registry and data discovery.
