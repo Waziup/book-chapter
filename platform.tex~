@@ -17,7 +17,7 @@ This section presents the functional view of the architecture.
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.7\textwidth]{figs/functional.png}
+\includegraphics[width=0.8\textwidth]{figs/functional.png}
 \caption{Functional overview of WAZIUP}
 \label{fig:func}
 \end{figure}
@@ -106,8 +106,6 @@ It has three main layers: device layer, gateway layer and the cloud layer.
 \label{fig:iotarchi}
 \end{figure}
 
-
-
 \begin{itemize}
   \item \emph{The device layer}
     It includes IoT sensors and actuator that are able to communicate each on its protocol (MQTT, CoAP, HTTP, LoRAWAN) with the gateway. 
@@ -127,10 +125,6 @@ Since the connection is intermittent in our project, it is mandatory that the ga
   \item \emph{Data discovery:} 
     it is responsible on querying the data.
 \end{itemize}
-
-
-
-
 
 \subsection{Big Data Platform}
 

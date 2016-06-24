@@ -7,12 +7,12 @@ Here is a detailed view of WAZIUP plateforrm components:
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=0.7\textwidth]{figs/platformOverview.png}
+\includegraphics[width=0.8\textwidth]{figs/platformOverview.png}
 \caption{WAZIUP IoT platform overview}
-\label{fig:iotPlatform}
+\label{fig:platformOverview}
 \end{figure}
 
-The figure ~\ref{fig:iotPlatform} presents the full WAZIUP architecture. 
+The figure ~\ref{fig:platformOverview} presents the full WAZIUP architecture. 
 There are 4 silos (from left to right): Application development, big data platform, IoT platform, Sensors and data sources. 
 The first silo involves the development of the application itself. 
 A rapid application development (RAD) tool can be used, such as Node-Red. 
