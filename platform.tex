@@ -115,15 +115,17 @@ Considering the project circumstances it has to be low cost and doesn’t consum
   The gateway is a key component in our architecture since it ensure a secure bidirectional communication between the Iot devices and the cloud services.
  It interfere with various kind of devices: getting the data from sensors and sending commands to actuators.
   It has to be multi-protocol in order to be able to support diverse devices and it need to have device management capabilities.
-Since the connection is intermittent in our project, it is mandatory that the gateway is able to manage local rules (for example some event processing), to store data locally and to have low speed internet connectivity (2G: GPRS, EDGE).
+Since the connection is intermittent in our project, it is mandatory that the gateway is able to manage automation rules (for example some event processing), to store data locally and to have low speed internet connectivity (2G: GPRS, EDGE).
   \item \emph{The cloud layer}
   Our cloud main component are: the Data broker, the data registry and the data discovery.
+\begin{itemize}
   \item \emph{Data broker:}
     it is the key component of the IoT cloud services, it is based on publish/ subscribe mechanism to ensure data transfer from different producers to their respected consumers.
   \item \emph{Data registry:}
     it contains the virtual representation of devices (the data and the meta-data)
   \item \emph{Data discovery:} 
     it is responsible on querying the data.
+\end{itemize}
 \end{itemize}
 
 \subsection{Big Data Platform}
