@@ -1,9 +1,109 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{Onyalo2015}
+Nashon Onyalo, Hosea Kandie, and Josiah Njuki.
+\newblock The internet of things, progress report for africa: A survey.
+\newblock {\em International Journal of Computer Science and Software
+  Engineering}, 2015.
+
+\bibitem{Masinde2014}
+M.~Masinde.
+\newblock Iot applications that work for the african continent: Innovation or
+  adoption?
+\newblock In {\em 2014 12th IEEE International Conference on Industrial
+  Informatics (INDIN)}, pages 633--638, July 2014.
+
+\bibitem{ITU2015}
+ITU.
+\newblock Harnessing the internet of things for global development.
+\newblock Technical report, ITU, 2015.
+
+\bibitem{Mafuta2013}
+Million Mafuta, Marco Zennaro, Antoine Bagula, Graham Ault, Harry Gombachika,
+  and Timothy Chadza.
+\newblock Successful deployment of a wireless sensor network for precision
+  agriculture in malawi.
+\newblock {\em International Journal of Distributed Sensor Networks}, 2013.
+
+\bibitem{Dlodlo2015}
+N.~Dlodlo and J.~Kalezhi.
+\newblock The internet of things in agriculture for sustainable rural
+  development.
+\newblock In {\em Emerging Trends in Networks and Computer Communications
+  (ETNCC), 2015 International Conference on}, pages 13--18, May 2015.
 
 \bibitem{Bing2012}
 Fu~Bing.
 \newblock Research on the agriculture intelligent system based on iot.
 \newblock In {\em 2012 International Conference on Image Analysis and Signal
   Processing}, pages 1--4, Nov 2012.
+
+\bibitem{TongKe2013}
+Fan TongKe.
+\newblock Smart agriculture based on cloud computing and iot.
+\newblock {\em Journal of Convergence Information Technology (JCIT)}, 2013.
+
+\bibitem{Dan2015}
+L.~Dan, C.~Xin, H.~Chongwei, and J.~Liangliang.
+\newblock Intelligent agriculture greenhouse environment monitoring system
+  based on iot technology.
+\newblock In {\em Intelligent Transportation, Big Data and Smart City (ICITBS),
+  2015 International Conference on}, pages 487--490, Dec 2015.
+
+\bibitem{Hu2011a}
+Xiangyu Hu and Songrong Qian.
+\newblock Iot application system with crop growth models in facility
+  agriculture.
+\newblock In {\em Computer Sciences and Convergence Information Technology
+  (ICCIT), 2011 6th International Conference on}, pages 129--133, Nov 2011.
+
+\bibitem{Nakutis2015}
+..~.. Nakutis, V.~Deksnys, I.~Jaruevicius, E.~Marcinkevicius, A.~Ronkainen,
+  P.~Soumi, J.~Nikander, T.~Blaszczyk, and B.~Andersen.
+\newblock Remote agriculture automation using wireless link and iot gateway
+  infrastructure.
+\newblock In {\em 2015 26th International Workshop on Database and Expert
+  Systems Applications (DEXA)}, pages 99--103, Sept 2015.
+
+\bibitem{Sarkar2016}
+Prosanjeet~J. Sarkar and Satyanarayana Chanagala.
+\newblock A survey on iot based digital agriculture monitoring system and their
+  impact on optimal utilization of resources.
+\newblock {\em Journal of Electronics and Communication Engineering
+  (IOSR-JECE)}, 2016.
+
+\bibitem{Jayaraman2015}
+P.~P. Jayaraman, D.~Palmer, A.~Zaslavsky, and D.~Georgakopoulos.
+\newblock Do-it-yourself digital agriculture applications with semantically
+  enhanced iot platform.
+\newblock In {\em Intelligent Sensors, Sensor Networks and Information
+  Processing (ISSNIP), 2015 IEEE Tenth International Conference on}, pages
+  1--6, April 2015.
+
+\bibitem{Ilapakurti2015}
+A.~Ilapakurti and C.~Vuppalapati.
+\newblock Building an iot framework for connected dairy.
+\newblock In {\em Big Data Computing Service and Applications (BigDataService),
+  2015 IEEE First International Conference on}, pages 275--285, March 2015.
+
+\bibitem{Han2014}
+W.~Han, Y.~Gu, Y.~Zhang, and L.~Zheng.
+\newblock Data driven quantitative trust model for the internet of agricultural
+  things.
+\newblock In {\em Internet of Things (IOT), 2014 International Conference on
+  the}, pages 31--36, Oct 2014.
+
+\bibitem{Hu2011}
+Siquan Hu, Haiou Wang, Chundong She, and Junfeng Wang.
+\newblock {\em AgOnt: Ontology for Agriculture Internet of Things}, chapter
+  AgOnt: Ontology for Agriculture Internet of Things, pages 131--137.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2011.
+
+\bibitem{Liu2014}
+Y.~Liu, H.~Wang, J.~Wang, K.~Qian, N.~Kong, K.~Wang, Y.~Shi, and L.~Zheng.
+\newblock Enterprise-oriented iot name service for agriculture product supply
+  chain management.
+\newblock In {\em Identification, Information and Knowledge in the Internet of
+  Things (IIKI), 2014 International Conference on}, pages 237--241, Oct 2014.
 
 \end{thebibliography}
