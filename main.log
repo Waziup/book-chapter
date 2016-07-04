@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.30)  1 JUL 2016 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.30)  4 JUL 2016 18:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -317,7 +317,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figs/iotarchi.png, id=27, 878.28125pt x 623.32875pt>
 File: figs/iotarchi.png Graphic file (type png)
  <use figs/iotarchi.png>
-Package pdftex.def Info: figs/iotarchi.png used on input line 104.
+Package pdftex.def Info: figs/iotarchi.png used on input line 72.
 (pdftex.def)             Requested size: 347.12354pt x 246.35957pt.
 
 
@@ -326,24 +326,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[5] [6 <./figs/iotarchi.png>]) (./implem.tex
-<figs/platformOverview.png, id=36, 1235.61626pt x 569.12625pt>
+[5]) (./implem.tex
+<figs/platformOverview.png, id=32, 1235.61626pt x 569.12625pt>
 File: figs/platformOverview.png Graphic file (type png)
 
 <use figs/platformOverview.png>
 Package pdftex.def Info: figs/platformOverview.png used on input line 10.
 (pdftex.def)             Requested size: 312.40906pt x 143.89645pt.
- [7 <./figs/platformOverview.png>]
-<figs/SeqdeployApp.png, id=42, 1031.855pt x 657.45625pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6 <./figs/iotarchi.png>]
+<figs/SeqdeployApp.png, id=37, 1031.855pt x 657.45625pt>
 File: figs/SeqdeployApp.png Graphic file (type png)
 
 <use figs/SeqdeployApp.png>
 Package pdftex.def Info: figs/SeqdeployApp.png used on input line 48.
 (pdftex.def)             Requested size: 312.40906pt x 199.05418pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+ [7 <./figs/platformOverview.png>]
 <figs/seqRunApp.png, id=43, 1060.96375pt x 621.32124pt>
 File: figs/seqRunApp.png Graphic file (type png)
 
@@ -354,27 +355,30 @@ Package pdftex.def Info: figs/seqRunApp.png used on input line 57.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] [9 <./figs/SeqdeployApp.png> <./figs/seqRunApp.png>]) (./deploy.tex
-[10] <figs/paas.png, id=55, 701.5008pt x 404.712pt>
+[8 <./figs/SeqdeployApp.png>]) (./deploy.tex [9 <./figs/seqRunApp.png>]
+<figs/paas.png, id=52, 701.5008pt x 404.712pt>
 File: figs/paas.png Graphic file (type png)
  <use figs/paas.png>
 Package pdftex.def Info: figs/paas.png used on input line 26.
 (pdftex.def)             Requested size: 242.98541pt x 140.18158pt.
-
-[11 <./figs/paas.png>]
+ [10 <./figs/paas.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- <figs/deploy.png, id=60, 477.28313pt x 269.50688pt>
+ <figs/deploy.png, id=57, 477.28313pt x 269.50688pt>
 File: figs/deploy.png Graphic file (type png)
 
 <use figs/deploy.png>
 Package pdftex.def Info: figs/deploy.png used on input line 77.
 (pdftex.def)             Requested size: 242.98541pt x 137.20406pt.
- [12 <./figs/deploy.png>]) (./usecases.tex
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11]) (./usecases.tex [12 <./figs/deploy.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -387,15 +391,15 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [13])
-(./related.tex
+ [13]) (./related.tex
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [14] [15]
+ [14]
+[15]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -408,7 +412,7 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [16]
+
 Underfull \hbox (badness 10000) in paragraph at lines 100--100
  [][]\OT1/cmr/m/n/9 http://blog.cloudera.com/blog/2014/11/flafka-apache-flume-m
 eets-apache-kafka-
@@ -420,23 +424,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 102--102
 xt-broker-orion-
  []
 
-
-Underfull \vbox (badness 1028) has occurred while \output is active []
-
- [17]
+[16]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-
-[18]
+ [17] [18]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ¶ in font cmr10!
-) (./conclu.tex) (./acknowledgement.tex [19]) (./main.bbl [20]) [21]
-(./main.aux) ) 
+) (./conclu.tex) (./acknowledgement.tex) (./main.bbl [19])
+[20] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  2931 strings out of 494953
  38418 string characters out of 6180977
@@ -444,23 +444,23 @@ Here is how much of TeX's memory you used:
  6138 multiletter control sequences out of 15000+600000
  11125 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 37i,9n,26p,722b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmtt9.pfb>
-Output written on main.pdf (21 pages, 848545 bytes).
+ 37i,9n,26p,722b,236s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmtt9.pfb>
+Output written on main.pdf (20 pages, 847395 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 131 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
