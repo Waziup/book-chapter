@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.30)  5 JUL 2016 09:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.6.30)  5 JUL 2016 11:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -293,13 +293,15 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 56.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./abstract.tex)
 (./intro.tex
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
- [1
+Overfull \hbox (1.37598pt too wide) in paragraph at lines 4--7
+\OT1/cmr/m/n/10 ICT de-vel-op-ments in Africa has al-ready en-abled sig-nif-i-c
+ant mod-ern-iza-tions across
+ []
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \vbox (badness 1102) has occurred while \output is active []
+Underfull \vbox (badness 5105) has occurred while \output is active []
 
  [2]
 Missing character: There is no â in font cmr10!
@@ -431,7 +433,7 @@ Missing character: There is no ¦ in font cmr10!
 Here is how much of TeX's memory you used:
  2937 strings out of 494953
  38496 string characters out of 6180977
- 106613 words of memory out of 5000000
+ 105613 words of memory out of 5000000
  6144 multiletter control sequences out of 15000+600000
  11125 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -448,7 +450,7 @@ ts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1
 c/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmtt9.pfb>
-Output written on main.pdf (21 pages, 847299 bytes).
+Output written on main.pdf (21 pages, 847458 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  85 compressed objects within 1 object stream
