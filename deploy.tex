@@ -3,25 +3,21 @@
 \section{Deployment}
 \label{sec:deploy}
 
-\subsection{Platform as a Service (PaaS)}
+This section will present the innovations of WAZIUP regarding the deployement of the platform.
+The first section presents the concept of Platform as a Service adapted to IoT, while the second shows how the concept of local Cloud is essential in African context.
 
+\subsection{PaaS for IoT}
 
-Platform as a Service (PaaS) is a category of cloud computing service that provides a platform allowing customers to develop, run, and manage applications without the complexity of building and maintaining the infrastructure typically associated with developing and deploying an application.
+Platform as a Service is a category of cloud computing service that provides a platform allowing customers to develop, run, and manage applications without the complexity of building and maintaining the infrastructure typically associated with developing and deploying an application.
 Typically, a PaaS framework will compile an application from its source code, and then deploy it inside lightweight virtual machines, or containers.This compilation and deployment is done with the help of a file called the manifest, which allows the developer to describe the configuration and resource needs for his application.
 The manifest file will also describe the services that the application requires and that the platform will need to provision.
 Furthermore, PaaS environments usually offer an interface to scale up or down applications, or to schedule various tasks within the applications.
+
 The idea of WAZIUP is to extend the paradigm of the PaaS to IoT.
-Indeed, developing an IoT Big data application is a complex task.
+Developing an IoT Big data application is a complex task.
 A lot of services need to be installed and configured, such as databases and complex event processing engines.
-Furthermore, it requires an advanced knowledge of:
-\begin{itemize}
-  \item The various communication protocols.
-  \item The programming of embedded devices.
-  \item The storage the data in a distributed fashion.
-  \item The programming of data stream processors.
-  \item The programming of advanced data analytics.
-  \item The programming of GUIs and user interactions.
-\end{itemize}
+Furthermore, it requires an advanced knowledge of the various communication protocols, the programming of embedded devices, the storage, processing and analysis of the data in a distributed fashion and finally the programming of GUIs and user interactions.
+The promise of the PaaS extended to IoT is to abstract away this work to a large extent.
 
 \begin{figure}[h!]
 \centering
@@ -62,12 +58,12 @@ In the case of WAZIUP, the local Cloud comprises the end user or service provide
 The local Cloud characteristics are:
 
 \begin{itemize}
-    \item \emph{Existence of IoT devices attached}
-    \item \emph{Can have geographical characteristics}
-    \item \emph{Must support virtualization}
-    \item \emph{Must support local cloud components}
-    \item \emph{Has an identifiable administrator/owner}
-    \item \emph{Has certain regulations/privacy considerations for data access and treatment}
+    \item Existence of IoT devices attached
+    \item Can have geographical characteristics
+    \item Must support virtualization
+    \item Must support local cloud components
+    \item Has an identifiable administrator/owner
+    \item Has certain regulations/privacy considerations for data access and treatment
 \end{itemize}
 
 The Global Cloud, on the other end, is a “backbone infrastructure” which increases the business opportunities for service providers and allows services to access a virtually infinite amount of computing resources. 
@@ -88,10 +84,6 @@ It is pushed on the Waziup Cloud platform. The orchestrator then takes care of c
 Furthermore, the orchestrator drives the instantiation of the services in the Cloud, according to the manifest. 
 The manifest is also describing which part of the application need to be installed locally, together with corresponding services. 
 The local application can then connect to the gateway and collect data from the sensors.
-
-\subsubsection{Deployment on the local gateway}
-An interested tool for deploying code on the gateway level is resin.io.
-It facilitate the deploy, update, and the code maintain on remote devices. 
-It is based docker containers and it supports several devices (the Rpi 1, 2 and 3 are supported).
+The code will be deployed at gateway level, in a similar way than resin.io\footnote{http://resin.io}.
 
 

@@ -14,7 +14,7 @@ Here is a detailed view of WAZIUP platform components:
 \label{fig:platformOverview}
 \end{figure}
 
-The figure ~\ref{fig:platformOverview} presents the full WAZIUP architecture. 
+The figure~\ref{fig:platformOverview} presents the full WAZIUP architecture. 
 There are 4 silos (from left to right): Application development, big data platform, IoT platform, Sensors and data sources. 
 The first silo involves the development of the application itself. 
 A rapid application development (RAD) tool can be used, such as Node-Red. 
@@ -22,9 +22,9 @@ The user provides the code source of the application, together with the manifest
 The manifest describes the requirements of the application in terms of:
 \begin{itemize}
 	\item \emph{Compute needs (i.e RAM, CPU, disk)}
-	\item \emph{reference to data sources (i.e. sensors, internet - sources...)}
-	\item \emph{big data engines needed (i.e Flink, Hadoop...)}
-	\item \emph{configuration of sensors (i.e. sampling rate)}
+	\item \emph{reference to data sources (e.g. sensors, internet sources)}
+	\item \emph{big data engines needed (e.g Flink, Hadoop)}
+	\item \emph{configuration of sensors (e.g. sampling rate)}
 	\item \emph{local and global application deployment}
 \end{itemize}
 
@@ -52,7 +52,12 @@ In this section the main two more important sequence diagrams are presented.
 \label{fig:SeqdeployApp}
 \end{figure}
 
-The Figure ~\ref{fig:SeqdeployApp} shows the sequence of an application deployment on Waziup platform. First, the developer uses the RAD to create a program source code. It is then pushed on Waziup platform using Waziup CLI. The Orchestrator of the Cloud instance read the manifest, compiles the application and deploys it in the Cloud execution environment. Using the information from the manifest and the gateway manager, it will also select the gateways where the application needs to be deployed. It will then contact the orchestrator from the corresponding gateways and ask them to deploy the application. If the gateway is not available at the moment, this action is delayed.
+The Figure~\ref{fig:SeqdeployApp} shows the sequence of an application deployment on Waziup platform.
+First, the developer uses the RAD to create a program source code. It is then pushed on Waziup platform using Waziup CLI.
+The Orchestrator of the Cloud instance read the manifest, compiles the application and deploys it in the Cloud execution environment.
+Using the information from the manifest and the gateway manager, it will also select the gateways where the application needs to be deployed.
+It will then contact the orchestrator from the corresponding gateways and ask them to deploy the application.
+If the gateway is not available at the moment, this action is delayed.
 
 \begin{figure}[h!]
 \centering
@@ -66,29 +71,28 @@ The Figure ~\ref{fig:seqRunApp} shows the sequence followed by a running applica
 \subsection{Technology and tools}
 
 In this section the technology choices for each functional component stated above will be presented.
-\paragraph{ In the cloud level,} functional components are the data broker, data registry and data discovery.
+\emph{ In the cloud level,} functional components are the data broker, data registry and data discovery.
 To cover these functionalities, The FIWARE generic enabler Orion context broker is the all-in-one solution.
 It is based on the Next Generic Service Interfaces (NGSI) 9/10.
 NGSI specification defines a data model and interfaces to manage the whole cycle of virtual entities.  
 other components can also be an option : the Nec IoT broker that covers the functionality of the data broker and uses the ConfMan component for the data discovery and registry.
-
-\paragraph{In the gateway level,} these functionalities have been identified:
+\emph{In the gateway level,} these functionalities have been identified:
 
 \begin{itemize}
-    \item \emph{Multiprotocol}
+    \item \emph{Multiprotocol:}
 The FIWARE IoT agent component: can be an option to ensure this characteristic. 
 Each IoT agent can be responsible on the data transfer to and from the devices using the device specific protocol. 
-    \item \emph{Device management}
+    \item \emph{Device management:}
 The LwM2M device management protocol is a good candidate, it is a light weight protocol specified by Oma .
-    \item \emph{Automation rules}
+    \item \emph{Automation rules:}
 FIWARE Cepheus enabler can be an option since it has a complex event processing engine. 
-    \item \emph{Data processing}
+    \item \emph{Data processing:}
 this component will be developed depending on use cases requirements.
-    \item \emph{Data storage}
+    \item \emph{Data storage:}
 Mongo DB can be an option, other light data bases can be also considered such as SQLiteDB.
 \end{itemize}
 
-\paragraph{In the devices and networking level,} LoRa technology captured our attention. 
+\emph{In the devices and networking level,} LoRa technology captured our attention. 
 It specifies LoRaWAN for Low Power Wide Area Network (LPWAN), the kind of technology needed in our project context (rural environment). 
 Using LoRaWAN we can reach above 20 km in Line-Of-Sight (LOS) condition between devices and the gateway. 
 
